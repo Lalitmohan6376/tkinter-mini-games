@@ -7,7 +7,7 @@ root.geometry("400x400")
 root.title("Gaming Field")
 root.configure(bg="#f0f8ff")
 
-# --------Main heading--------
+# --------Main heading---------
 
 label = tk.Label(text="Choose your game",
                  font=("Arial",14,"bold"), bg="#4682b4", fg="white", padx=10, pady=10)
@@ -140,3 +140,4 @@ btn2 = tk.Button(root, text=" Play Game 2",
 btn2.pack(pady=10)
 
 root.mainloop()
+
