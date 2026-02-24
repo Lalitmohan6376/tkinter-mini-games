@@ -138,6 +138,4 @@ btn2 = tk.Button(root, text=" Play Game 2",
                  font=("Arial",12,"bold"), bg="#ffa500", fg="white",
                  padx=15, pady=5, relief="raised",command=second_window)
 btn2.pack(pady=10)
-
 root.mainloop()
-
